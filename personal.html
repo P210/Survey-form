@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Survey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Welcome to Personal Survey</h1>
+  <a href="index.html"><img src="back.png" width="25" height="25" alt="This is a back button"></a>
+    <form action="">
+        <p>Name : <input type="text" name="name" id="name" required></p>
+        <p>Age : <input type="number" name="age" id="age" required></p>
+        <fieldset>
+            <legend>Gender</legend>
+            <p>
+                Male <input type="radio" name="male" id="male" required>
+                Female <input type="radio" name="female" id="female" required>
+            </p>
+        </fieldset>
+        <p>
+            Date of birth : <input type="date" name="date" id="date" required>
+        </p>
+        <p>Email:<input type="email" name="email" id="email"></p>
+        <p>Address :  <textarea name="address" id="address" cols="50" rows="5"></textarea></p>
+        <fieldset>
+            <legend>What you like to do?</legend>
+        <p>
+            Work <input type="radio" name="work" id="work">
+            Relax <input type="radio" name="relax" id="relax">
+        </p>
+      
+    </fieldset>
+    <p>Who is your favorite hero ? <input type="text" name="hero" id="hero" required></p>
+    <p>Who is your favorite heroie ? <input type="text" name="heroie" id="heroie" required></p>
+    <p>Who motivates you ? <input type="text" name="moti" id="moti" required></p>
+    <p>What is your favorite movie? <input type="text" name="movie" id="movie" required></p>
+    <p>What is your favorite color? <input type="text" name="color" id="color" required></p>
+    <p>Favorite movie type
+        <select name="movie_typr" id="movie_type" required>
+            <option value="">Select a movie type</option>
+            <option value="comedy">Comedy</option>
+            <option value="action">Action</option>
+            <option value="drama">Drama</option>
+            <option value="Thirrier">Thirrier</option>
+            <option value="Horror">Horror</option>
+            <option value="Romance">Romance</option>
+        </select>
+    </p>
+    <p>Favorite subject
+        <select name="movie_typr" id="movie_type" required>
+            <option value="">Select your favorite subject</option>
+            <option value="English">English</option>
+            <option value="Hindi">Hindi</option>
+            <option value="Maths">Maths</option>
+            <option value="Chemisty">Chemisty</option>
+            <option value="Physis">Physis</option>
+            <option value="Biology">Biology</option>
+            <option value="spl">Civis/SPL</option>
+            <option value="Geography">Geography</option>
+            <option value="History">History</option>
+            <option value="Computer">Computer</option>
+            <option value="French">French</option>
+            <option value="Snaskrit">Snaskrit</option>
+            <option value="Art">Art</option>
+        </select>
+    </p>
+    <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
